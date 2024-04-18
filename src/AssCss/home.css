@@ -1,0 +1,75 @@
+:root{
+    font-family: "Kanit", sans-serif;}
+.homediv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headtitle{
+    border: 3px solid black;
+    padding: 50px;
+    background-color: rgb(248, 246, 250);
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    color: rgb(32, 31, 31);
+    
+}
+.p1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    font-weight: bolder;
+}
+.p2{
+    font-weight: bolder;
+    margin-top: 30px;
+
+}
+.catenew{
+    font-size: 20px;
+}
+.allnew{
+    border: 3px solid rgb(49, 48, 48) ;
+    border-radius: 10px;
+        padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgb(125, 124, 124) 0px 6px 7px 0px;
+
+}
+.allnew:hover{
+    color: white;
+}
+
+.date{
+    color: rgba(57, 57, 57, 0.904);
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+.date:hover{
+    color: white;
+}
+.category{
+    font-weight: bold;
+    color: rgba(56, 56, 56, 0.904);
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+/* //////////////////////////////////allnew2/////////////////////////////// */
+.allnew2{
+ 
+        border: 3px solid rgb(49, 48, 48) ;
+        border-radius: 10px;
+            padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: rgb(125, 124, 124) 0px 6px 7px 0px;
+    
+    
+
+
+}
+.allnew2:hover{
+    color: white;
+}

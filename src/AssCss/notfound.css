@@ -1,0 +1,21 @@
+
+.buttonnf{
+    border: 2px solid ;
+    color: white;
+    background-color: rgb(87, 87, 242);
+    padding: 10px;
+    text-align: center ;
+    margin-left: 740px;
+    margin-top: 300px;
+    border-radius: 10px;
+    box-shadow: black 0px 3px 6px 0px;
+
+}
+.buttonWeb:hover{
+    background-color: cadetblue;
+
+}
+.img2{
+    margin-left: 550px;
+    margin-top: 100px;
+}
