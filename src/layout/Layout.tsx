@@ -35,6 +35,46 @@
                     <button className="flex flex-row px-4 py-2">ข่าวทั้งหมด</button>
                 </Link>
                 </li>
+                <li>
+                <Link
+                    className={`${
+                    "/home/allnew/ws01 " === pathname ? "text-Fuchsia-500" : "text-black"
+                    } transition hover:text-Fuchsia-500 active:text-Fuchsia-500`}
+                    to="/home/ws01"
+                >
+                    <button className="flex flex-row px-4 py-2">WS01</button>
+                </Link>
+                </li>
+                <li>
+                <Link
+                    className={`${
+                    "/home/allnew" === pathname ? "text-Fuchsia-500" : "text-black"
+                    } transition hover:text-Fuchsia-500 active:text-Fuchsia-500`}
+                    to="/home/ws02"
+                >
+                    <button className="flex flex-row px-4 py-2">WS02</button>
+                </Link>
+                </li>
+                <li>
+                <Link
+                    className={`${
+                    "/home/allnew" === pathname ? "text-Fuchsia-500" : "text-black"
+                    } transition hover:text-Fuchsia-500 active:text-Fuchsia-500`}
+                    to="/home/ws03"
+                >
+                    <button className="flex flex-row px-4 py-2">WS03</button>
+                </Link>
+                </li>
+                <li>
+                <Link
+                    className={`${
+                    "/home/allnew" === pathname ? "text-Fuchsia-500" : "text-black"
+                    } transition hover:text-Fuchsia-500 active:text-Fuchsia-500`}
+                    to="/home/ws032"
+                >
+                    <button className="flex flex-row px-4 py-2">WS03-2</button>
+                </Link>
+                </li>
                 {data_new[0].type_new.map((tn: TypeNew) => (
                 <li key={tn.id}>
                     <Link
@@ -48,6 +88,7 @@
                     <button className="flex flex-row px-4 py-2">{tn.name}</button>
                     </Link>
                 </li>
+                
                 ))}
             </ul>
             </nav>

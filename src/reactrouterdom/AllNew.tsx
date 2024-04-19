@@ -31,7 +31,7 @@ const AllNew = () => {
                   to={`/home/allnew/${tn.id}/${nt.id}?viewer=Panupat`}
                   key={nt.id}
                 >
-                  <div className="">
+                  <div className="text">
                     {nt.date}
                   </div>
                   <h3 className="p2">{nt.headline}</h3>
