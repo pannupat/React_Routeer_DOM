@@ -1,16 +1,16 @@
-import React from 'react';
-import styles from './WS03-2.module.css';
-import pic1 from "./img2/bag.png"
-import pic2 from "./img2/chip.png"
-import pic3 from "./img2/dish.png"
-import pic4 from "./img2/dollar.png"
-import pic5 from "./img2/hamburger.png"
-import pic6 from "./img2/icon.jpg"
-import pic7 from "./img2/money.png"
-import pic8 from "./img2/more.png"
-import pic9 from "./img2/play.png"
-import pic10 from "./img2/visa.png"
-import pic11 from "./img2/dolla.png"
+import React from "react";
+import styles from "./WS03-2.module.css";
+import pic1 from "@reactrouterdom/img2/bag.png";
+import pic2 from "@reactrouterdom/img2/chip.png";
+import pic3 from "@reactrouterdom/img2/dish.png";
+import pic4 from "@reactrouterdom/img2/dollar.png";
+import pic5 from "@reactrouterdom/img2/hamburger.png";
+import pic6 from "@reactrouterdom/img2/icon.jpg";
+import pic7 from "@reactrouterdom/img2/money.png";
+import pic8 from "@reactrouterdom/img2/more.png";
+import pic9 from "@reactrouterdom/img2/play.png";
+import pic10 from "@reactrouterdom/img2/visa.png";
+import pic11 from "@reactrouterdom/img2/dolla.png";
 
 const WS032: React.FC = () => {
   return (
@@ -40,18 +40,20 @@ const WS032: React.FC = () => {
           </div>
           <div className={styles.row2}>
             <p>
-              EXPIRE &nbsp;<i
+              EXPIRE &nbsp;
+              <i
                 className="fa-solid fa-play"
-                style={{ color: '#ffffff', fontSize: '8px' }}
-              ></i
-              >&nbsp; 02/22
+                style={{ color: "#ffffff", fontSize: "8px" }}
+              ></i>
+              &nbsp; 02/22
             </p>
             <p>
-              CVC CODE &nbsp;<i
+              CVC CODE &nbsp;
+              <i
                 className="fa-solid fa-play"
-                style={{ color: '#ffffff', fontSize: '8px' }}
-              ></i
-              >&nbsp; 230
+                style={{ color: "#ffffff", fontSize: "8px" }}
+              ></i>
+              &nbsp; 230
             </p>
           </div>
         </div>

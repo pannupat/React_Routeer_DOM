@@ -17,9 +17,7 @@ const AllNew = () => {
         })
         .map((tn: TypeNew) => (
           <div className="homediv" key={tn.id}>
-            <h2 className="p1">
-              {tn.name}
-            </h2>
+            <h2 className="p1">{tn.name}</h2>
             {tn.news_type
               .sort(
                 (a: NewsType, b: NewsType) =>
@@ -27,18 +25,14 @@ const AllNew = () => {
               )
               .map((nt: NewsType) => (
                 <Link
-                  className="allnew2 flex flex-col p-3 gap-3  hover:bg-Fuchsia-500 active:bg-Fuchsia-500 hover: transition border-Fuchsia-500"
+                  className="allnew2 flex flex-col p-3 gap-3  hover:bg-Pur-500 active:bg-Pur-500 hover: transition border-Pur-500"
                   to={`/home/allnew/${tn.id}/${nt.id}?viewer=Panupat`}
                   key={nt.id}
                 >
-                  <div className="text">
-                    {nt.date}
-                  </div>
+                  <div className="text">{nt.date}</div>
                   <h3 className="p2">{nt.headline}</h3>
                   <div>{nt.content}</div>
-                  <div className="">
-                    ประเภทข่าว : {nt.category}
-                  </div>
+                  <div className="">ประเภทข่าว : {nt.category}</div>
                 </Link>
               ))}
           </div>

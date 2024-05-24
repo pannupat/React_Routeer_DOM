@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./WS03.module.css";
-import pic1 from "./img2/bag.png";
-import pic2 from "./img2/chip.png";
-import pic3 from "./img2/dish.png";
-import pic4 from "./img2/dollar.png";
-import pic5 from "./img2/hamburger.png";
-import pic6 from "./img2/icon.jpg";
-import pic7 from "./img2/money.png";
-import pic8 from "./img2/more.png";
-import pic9 from "./img2/play.png";
-import pic10 from "./img2/visa.png";
+import pic1 from "@reactrouterdom/img2/bag.png";
+import pic2 from "@reactrouterdom/img2/chip.png";
+import pic3 from "@reactrouterdom/img2/dish.png";
+import pic4 from "@reactrouterdom/img2/dollar.png";
+import pic5 from "@reactrouterdom/img2/hamburger.png";
+import pic6 from "@reactrouterdom/img2/icon.jpg";
+import pic7 from "@reactrouterdom/img2/money.png";
+import pic8 from "@reactrouterdom/img2/more.png";
+import pic9 from "@reactrouterdom/img2/play.png";
+import pic10 from "@reactrouterdom/img2/visa.png";
 
 const WS03 = () => {
   return (

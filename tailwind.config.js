@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     colors:{
-      'Fuchsia':{
+      'Pur':{
       500:  '#d946ef'
       
     },

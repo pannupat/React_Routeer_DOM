@@ -1,6 +1,6 @@
 import Style from "./WS02.module.css";
 import { IoMdStar } from "react-icons/io";
-import pic0 from "./image/arrow_right_icon.png";
+import pic0 from "../reactrouterdom/image/arrow_right_icon.png";
 import pic1 from "..//reactrouterdom/image/background.jpg";
 import pic2 from "../reactrouterdom/image/menu_bar.png";
 import pic3 from "../reactrouterdom/image/arrowleft.png";
@@ -9,9 +9,9 @@ import pic5 from "../reactrouterdom/image/airport_icon.png";
 import pic6 from "../reactrouterdom/image/easy_booking_icon.png";
 import pic7 from "../reactrouterdom/image/group_icon.png";
 import pic8 from "../reactrouterdom/image/daniel-jensen-tQpypKA92k8-unsplash.jpg";
-import pic9 from "./image/leio-mclaren-jEgQpfkHEWY-unsplash.jpg";
-import pic11 from "./image/yousef-alfuhigi-bMIlyKZHKMY-unsplash.jpg";
-import pic12 from "./image/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg";
+import pic9 from "../reactrouterdom/image/leio-mclaren-jEgQpfkHEWY-unsplash.jpg";
+import pic11 from "../reactrouterdom/image/yousef-alfuhigi-bMIlyKZHKMY-unsplash.jpg";
+import pic12 from "../reactrouterdom/image/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg";
 
 const WS02 = () => {
   return (

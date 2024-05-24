@@ -23,6 +23,8 @@ export default defineConfig({
       "@pages": path.resolve(__dirname, "src/pages"),
       "@function": path.resolve(__dirname, "src/function"),
       "@data": path.resolve(__dirname, "src/data"),
+      "@CssFrameWork": path.resolve(__dirname, "src/CssFrameWork"),
+
 
 
 

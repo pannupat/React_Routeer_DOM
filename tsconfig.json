@@ -28,7 +28,9 @@
     "@assets/*": ["assets/*"],
     "@layout/*": ["layout/*"],
     "@function/*": ["function/*"],
-    "@data/*": ["data/*"]
+    "@data/*": ["data/*"],
+    "@CssFrameWork/*": ["CssFrameWork/*"]
+
 
 
   },
